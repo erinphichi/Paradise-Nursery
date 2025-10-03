@@ -185,9 +185,16 @@ body {
     border: 1px solid rgb(5, 4, 4);
     border-left: none;
     border-right: none;
-
-    
 }
+
+.category-name {
+    text-align: center; /* Center the text */
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    margin: 20px 0; /* Add spacing above and below */
+    position: relative; /* Position relative for pseudo-elements */
+}
+
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
     .product-card {
